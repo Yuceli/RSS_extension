@@ -6,14 +6,16 @@
   "version": "0.2",
   "content_scripts": [
     {
+      
+      "js": ["jquery.js", "popup.js"],
+      "css": [ "style.css" ],
       "matches": ["http://www.google.com/*"]
-      "js": ["jquery.js", "popup.js"]
     }
   ],
-  "permissions": [ "storage", "http://brentheftye.mx" ],
+  "permissions": [ "http://brentheftye.mx" ],
   
   "browser_action": {
-    "default_icon": "icon.png",
+    "default_icon": "rss_icon.png",
     "default_popup": "popup.html",
 	"default_title": "RSS Diario de Yucatán"
   }

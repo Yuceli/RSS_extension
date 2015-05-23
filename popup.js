@@ -1,19 +1,5 @@
 function getRss(event){
-    /*var resultado = "";
-    $.ajax({ 
-            url: "http://brentheftye.mx/rss/index.php",
-            type:'GET',
-            crossDomain: true,
-            dataType: 'jsonp',
-            success:function(data){
-                 if(data != ""){
-                    resultado = JSON.parse(data);
-                    console.log(resultado);
-                    document.getElementById('elemento').innerHTML = resultado;
-                }
-            }
-        });
-    */
+   
     var xmlhttp;
     if (window.XMLHttpRequest)
       {// code for IE7+, Firefox, Chrome, Opera, Safari
@@ -34,6 +20,5 @@ function getRss(event){
     xmlhttp.send();
 }
 
-$(document).ready(function($) {
-    $('#rss-button').click(getRss);
-});
+window.addEventListener('load', getRss);
+
