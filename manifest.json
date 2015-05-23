@@ -8,7 +8,7 @@
     {
       
       "js": ["jquery.js", "popup.js"],
-      "css": [ "style.css" ],
+      "css": [ "bootstrap.min.css" ],
       "matches": ["http://www.google.com/*"]
     }
   ],
