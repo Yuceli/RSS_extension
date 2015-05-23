@@ -11,11 +11,11 @@ function getRss(){
             success:function(data){
                  if(data != ""){
                     resultado = JSON.parse(data);
-                    console.log(resultado);
                 }
+                console.log(resultado);
+                document.getElementById('elemento').innerHTML = resultado;
             }
         });
 }
-
 
 	
