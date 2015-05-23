@@ -1,10 +1,9 @@
-function getRss(){
+function getRss(event){
     var resultado = "";
     $.ajax({ 
-            url: mypath+"http://brentheftye.mx/rss/index.php",
+            url: "http://brentheftye.mx/rss/index.php",
             type:'GET',
             contentType:false,
-            data:data,
             processData:false,
             cache:false,
             async:false,
@@ -18,4 +17,6 @@ function getRss(){
         });
 }
 
-	
+$(document).ready(function($) {
+    $('#rss-button').click(getRss);
+});

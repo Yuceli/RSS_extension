@@ -1,8 +1,8 @@
 {
   "manifest_version": 2,
   
-  "name": "Noticias diarios de Yucatán",
-  "description": "Visualizar noticiar del diario de Yucatán.",
+  "name": "Noticias Diario de Yucatán",
+  "description": "Visualizar noticias del Diario de Yucatán.",
   "version": "0.2",
   
   "permissions": [ "storage" ],
@@ -10,6 +10,6 @@
   "browser_action": {
     "default_icon": "icon.png",
     "default_popup": "popup.html",
-	"default_title": "Haz clic :)"
+	"default_title": "RSS Diario de Yucatán"
   }
 }
