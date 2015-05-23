@@ -3,5 +3,5 @@ Extesion of google chrome to read the news daily of Yucatan
 
 
 ##Contributors: 
-Yuceli Polanco 
-Brent Heftye
+	-Yuceli Polanco 
+	-Brent Heftye
