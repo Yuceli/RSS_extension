@@ -4,8 +4,13 @@
   "name": "Noticias Diario de Yucatán",
   "description": "Visualizar noticias del Diario de Yucatán.",
   "version": "0.2",
-  
-  "permissions": [ "storage" ],
+  "content_scripts": [
+    {
+      "matches": ["http://www.google.com/*"]
+      "js": ["jquery.js", "popup.js"]
+    }
+  ],
+  "permissions": [ "storage", "http://brentheftye.mx" ],
   
   "browser_action": {
     "default_icon": "icon.png",
